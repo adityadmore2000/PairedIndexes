@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Coordinates.cpp" />
     <ClCompile Include="PairedIndexes.cpp" />
+    <ClCompile Include="Points.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Coordinates.h" />
+    <ClInclude Include="Points.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
